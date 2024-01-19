@@ -129,4 +129,7 @@
     .skills h1{
         font-size: xx-large;
     }
+    .gd_skills{
+        width: 200px;
+    }
 }
