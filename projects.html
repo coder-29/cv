@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Sharkawi Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <div class="header_1">
+        <div>
+            <h3>A.Sharkawi</h3>
+        </div>
+        <div>
+            <nav  class="nav_li" id="myNavbar">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav_item"><a href="#" class="nav__link">Projects</a></li>
+                    <li class="nav_item"><a href="#my_form" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <button onclick="scrollToForm()">Hire</button>
+        </div>
+    </div>
+    <div class="header_2">
+        <div>
+            <h3>A.Sharkawi</h3>
+        </div>
+        <div>
+            <nav  class="nav_li">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav_item"><a href="#" class="nav__link">Projects</a></li>
+                    <li class="nav_item"><a href="#my_form" class="nav__link1">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="shark_main">
+        <h1>Projects</h1>
+        <div class="web_projects">
+            <p class="fend"><span class="color_hash">#</span>Front-end Projects</p>
+            <div class="web_projects_items">
+                <div class="items">
+                    <img src="assets/projects pics/web images/web1.png" alt="project photo">
+                    <div class="p_btn">
+                        <p>Resturant-Menu Website</p>
+                        <button>Preview</button>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="assets/projects pics/web images/web1.png" alt="project photo">
+                    <div class="p_btn">
+                        <p>Resturant-Menu Website</p>
+                        <button>Preview</button>
+                    </div>
+                </div>
+                <div class="items">
+                    <img src="assets/projects pics/web images/web1.png" alt="project photo">
+                    <div class="p_btn">
+                        <p>Resturant-Menu Website</p>
+                        <button>Preview</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gd_projects">
+            <p class="fend"><span class="color_hash">#</span>Graphic Design Projects</p>
+            <div class="gf_projects_items">
+                <div class="item_flex_1">
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/xoidax.jpg" alt="gf photos">
+                        <div class="p_btn">
+                            <p>Twitter Header</p>
+                            <button onclick="openPreview('xoidaxImage')">Preview</button>
+                        </div>
+                    </div>
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/brax.jpg" alt="gf photos" id="braxImage">
+                        <div class="p_btn">
+                            <p>Twitter Header</p>
+                            <button onclick="openPreview('braxImage')">Preview</button>
+                        </div>
+                    </div>
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/casper.jpg" alt="gf photos">
+                        <div class="p_btn">
+                            <p>Youtube Banner</p>
+                            <button onclick="openPreview('casperImage')">Preview</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item_flex_1">
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/dazy.jpg" alt="gf photos" id="dazyImage">
+                        <div class="p_btn">
+                            <p>Youtube Banner</p>
+                            <button onclick="openPreview('dazyImage')">Preview</button>
+                        </div>
+                    </div>
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/demons.jpg" alt="gf photos">
+                        <div class="p_btn">
+                            <p>Twitter Poster</p>
+                            <button onclick="openPreview('demonsImage')">Preview</button>
+                        </div>
+                    </div>
+                    <div class="items_2">
+                        <img src="assets/projects pics/graphic design images/slaqs.jpg" alt="gf photos">
+                        <div class="p_btn">
+                            <p>Twitter Header</p>
+                            <button onclick="openPreview('justImage')">Preview</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <div class="img_preview">
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/brax.jpg">
+        </div>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/casper.jpg">
+        </div>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/dazy.jpg">
+        </div>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/demons.jpg">
+        </div>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/just.jpg">
+        </div>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="imgModal" src="assets/projects pics/graphic design images/xoidax.jpg">
+        </div>
+        
+    </div>
+
+    <script>
+        function openPreview(image) {
+    var modal = document.getElementById('myModal');
+    var modalImg = document.getElementById('imgModal');
+
+    modal.style.display = 'block';
+    modalImg.src = image.src;
+}
+
+function closeModal() {
+    document.getElementById('myModal').style.display = 'none';
+}
+
+// Add an event listener to each "Preview" button dynamically
+document.querySelectorAll('.p_btn button').forEach(function(button) {
+    button.addEventListener('click', function() {
+        var image = this.closest('.items_2').querySelector('img');
+        openPreview(image);
+    });
+});
+
+    </script> 
+</body>
+</html>
