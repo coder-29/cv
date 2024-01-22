@@ -411,3 +411,6 @@ form {
             justify-content: center;
             text-align: center;
         }
+        footer a{
+            color: white;
+        }
