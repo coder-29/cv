@@ -404,3 +404,10 @@ form {
     color: white;
     cursor: pointer;
 }
+        footer{
+            background-color: #ff0055;
+            margin: 0%;
+            padding: 30px;
+            justify-content: center;
+            text-align: center;
+        }
